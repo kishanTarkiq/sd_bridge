@@ -41,13 +41,13 @@
     }
 
     function getMessages(){
-      $.get('https://sd-bridge.onrender.com:3000/messages', (data) => {
+      $.get('https://sd-test-bridge.onrender.com:3000/messages', (data) => {
         data.forEach(addMessages);
       })
     }
 
     function sendMessage(message){
-      $.post('https://sd-bridge.onrender.com:3000/messages', message)
+      $.post('https://sd-test-bridge.onrender.com/messages', message)
     }
 </script>
 </body>
