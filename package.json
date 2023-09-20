@@ -2,11 +2,15 @@
   "name": "demo-chat-app",
   "version": "1.0.0",
   "description": "demo chat app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "node server.js",
   },
-  "start": "node server.js",
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.1.2"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
